@@ -1,0 +1,25 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - truffle-hdwallet-provider > web3-provider-engine > request > hawk > hoek:
+        patched: '2021-04-28T19:10:23.707Z'
+    - truffle-hdwallet-provider > web3-provider-engine > request > hawk > boom > hoek:
+        patched: '2021-04-28T19:10:23.707Z'
+    - truffle-hdwallet-provider > web3-provider-engine > request > hawk > sntp > hoek:
+        patched: '2021-04-28T19:10:23.707Z'
+    - truffle-hdwallet-provider > web3-provider-engine > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-04-28T19:10:23.707Z'
+  SNYK-JS-LODASH-567746:
+    - truffle-hdwallet-provider > web3-provider-engine > async > lodash:
+        patched: '2021-04-28T19:10:23.707Z'
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-block > async > lodash:
+        patched: '2021-04-28T19:10:23.707Z'
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > async > lodash:
+        patched: '2021-04-28T19:10:23.707Z'
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > async-eventemitter > async > lodash:
+        patched: '2021-04-28T19:10:23.707Z'
+    - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > async > lodash:
+        patched: '2021-04-28T19:10:23.707Z'
