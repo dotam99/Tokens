@@ -23,3 +23,9 @@ patch:
         patched: '2021-04-28T19:10:23.707Z'
     - truffle-hdwallet-provider > web3-provider-engine > ethereumjs-vm > ethereumjs-block > async > lodash:
         patched: '2021-04-28T19:10:23.707Z'
+    - snyk > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2021-04-28T19:16:16.649Z'
+    - truffle > mocha > yargs-unparser > lodash:
+        patched: '2021-04-28T19:16:16.649Z'
+    - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > @yarnpkg/core > lodash:
+        patched: '2021-04-28T19:16:16.649Z'
