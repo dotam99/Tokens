@@ -38,7 +38,7 @@
   "dependencies": {
     "truffle": "^5.1.42",
     "truffle-hdwallet-provider": "1.0.0",
-    "snyk": "^1.618.0"
+    "snyk": "^1.620.0"
   },
   "devDependencies": {
     "coveralls": "3.0.0",
